@@ -4,6 +4,8 @@ module.exports = {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    pageLoadTimeout: 120000, 
+    defaultCommandTimeout: 10000,
     env: {
       base_url: process.env.BASE_URL,
       orangehrm_username: process.env.ORANGEHRM_USERNAME,
