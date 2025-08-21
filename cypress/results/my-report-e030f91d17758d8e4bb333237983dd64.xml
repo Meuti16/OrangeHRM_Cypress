@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="95.606" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-08-20T18:41:49" tests="0" file="cypress\e2e\OrangeHRM\add_employee_test.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="PIM-Add New Employee" timestamp="2025-08-20T18:41:49" tests="2" time="95.603" failures="0">
+    <testcase name="PIM-Add New Employee Add New Employee with Required Fields(Positive)" time="70.119" classname="Add New Employee with Required Fields(Positive)">
+    </testcase>
+    <testcase name="PIM-Add New Employee add employees by leaving the required fields blank (Negative)" time="20.967" classname="add employees by leaving the required fields blank (Negative)">
+    </testcase>
+  </testsuite>
+</testsuites>

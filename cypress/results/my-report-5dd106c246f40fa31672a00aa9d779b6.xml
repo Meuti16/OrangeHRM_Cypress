@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="36.591" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-08-20T13:23:30" tests="0" file="cypress\e2e\OrangeHRM\login_test.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login Page" timestamp="2025-08-20T13:23:30" tests="2" time="36.588" failures="0">
+    <testcase name="Login Page Login with valid credentials (Positive)" time="18.121" classname="Login with valid credentials (Positive)">
+    </testcase>
+    <testcase name="Login Page Login with invalid credentials (Negative)" time="14.424" classname="Login with invalid credentials (Negative)">
+    </testcase>
+  </testsuite>
+</testsuites>

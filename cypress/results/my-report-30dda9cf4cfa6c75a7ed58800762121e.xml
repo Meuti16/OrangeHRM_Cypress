@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="175.146" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-08-20T13:24:12" tests="0" file="cypress\e2e\OrangeHRM\user_management.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Admin-User Management" timestamp="2025-08-20T13:24:12" tests="2" time="80.085" failures="0">
+    <testcase name="Admin-User Management Add New User with Complete and Valid Data (Positive)" time="52.064" classname="Add New User with Complete and Valid Data (Positive)">
+    </testcase>
+    <testcase name="Admin-User Management Add New User with Duplicate Username (Negative)" time="22.516" classname="Add New User with Duplicate Username (Negative)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin User Management - Search User" timestamp="2025-08-20T13:25:32" tests="2" time="45.173" failures="0">
+    <testcase name="Admin User Management - Search User Search User with valid username (Positive)" time="22.792" classname="Search User with valid username (Positive)">
+    </testcase>
+    <testcase name="Admin User Management - Search User Search User with invalid employee name (Negative)" time="22.174" classname="Search User with invalid employee name (Negative)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin-User Management" timestamp="2025-08-20T13:26:17" tests="1" time="0.000" failures="0">
+    <testcase name="Admin-User Management Edit a user based on a valid username (Positive)" time="25.882" classname="Edit a user based on a valid username (Positive)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin-User Management" timestamp="2025-08-20T13:26:43" tests="1" time="23.884" failures="1">
+    <testcase name="Admin-User Management Admin-User Management &quot;before each&quot; hook for &quot;Delete a user based on a valid username (Positive)&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;Delete a user based on a valid username (Positive)&quot;">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `:nth-child(2) &gt; .oxd-input-group &gt; :nth-child(2) &gt; .oxd-input`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping all of the remaining tests." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `:nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping all of the remaining tests.
+    at LoginPage.fillUsername (webpack://orangehrm-cypress/./cypress/support/pages/login_page.cy.js:10:36)
+    at Context.eval (webpack://orangehrm-cypress/./cypress/e2e/OrangeHRM/user_management.cy.js:13:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

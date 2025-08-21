@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="104.623" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-08-20T18:43:54" tests="0" file="cypress\e2e\OrangeHRM\user_management.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Admin-User Management" timestamp="2025-08-20T18:43:54" tests="2" time="38.276" failures="0">
+    <testcase name="Admin-User Management Add New User with Complete and Valid Data (Positive)" time="21.888" classname="Add New User with Complete and Valid Data (Positive)">
+    </testcase>
+    <testcase name="Admin-User Management Add New User with Duplicate Username (Negative)" time="13.307" classname="Add New User with Duplicate Username (Negative)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin User Management - Search User" timestamp="2025-08-20T18:44:32" tests="2" time="28.359" failures="0">
+    <testcase name="Admin User Management - Search User Search User with valid username (Positive)" time="15.145" classname="Search User with valid username (Positive)">
+    </testcase>
+    <testcase name="Admin User Management - Search User Search User with invalid employee name (Negative)" time="13.046" classname="Search User with invalid employee name (Negative)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin-User Management" timestamp="2025-08-20T18:45:01" tests="1" time="0.000" failures="0">
+    <testcase name="Admin-User Management Edit a user based on a valid username (Positive)" time="24.106" classname="Edit a user based on a valid username (Positive)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin-User Management" timestamp="2025-08-20T18:45:25" tests="1" time="13.744" failures="0">
+    <testcase name="Admin-User Management Admin-User Management Delete a user based on a valid username (Positive)" time="13.623" classname="Delete a user based on a valid username (Positive)">
+    </testcase>
+  </testsuite>
+</testsuites>
