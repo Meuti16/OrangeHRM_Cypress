@@ -1,11 +1,18 @@
-require('dotenv').config();
-module.exports = {
+const { defineConfig } = require('cypress');
+
+module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
     },
+    reporter: 'junit',
+    reporterOptions: {
+      mochaFile: 'cypress/results/junit-[hash].xml', 
+    },
+    
+  
     pageLoadTimeout: 120000, 
     defaultCommandTimeout: 10000,
+
     env: {
       base_url: process.env.BASE_URL,
       orangehrm_username: process.env.ORANGEHRM_USERNAME,
@@ -23,6 +30,6 @@ module.exports = {
       orangehrm_new_lastname: process.env.ORANGEHRM_NEW_LASTNAME,
       orangehrm_job_title_1: process.env.ORANGEHRM_JOB_TITLE_1,
       orangehrm_job_title_2: process.env.ORANGEHRM_JOB_TITLE_2
-    }
+    },
   },
-};
+});
