@@ -4,9 +4,12 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
     },
-    reporter: 'junit',
+    reporter: 'mochawesome',
     reporterOptions: {
-      mochaFile: 'cypress/results/junit-[hash].xml', 
+    reportDir: 'cypress/reports/mochawesome',
+    overwrite: false,
+    html: true,
+    json: true 
     },
     
   
