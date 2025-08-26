@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "dotenv": "^17.2.1",
     "mocha-junit-reporter": "^2.2.1",
     "mochawesome": "^7.1.3"
