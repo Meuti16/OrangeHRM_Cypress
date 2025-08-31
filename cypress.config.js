@@ -5,14 +5,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
     },
-    reporter: 'mochawesome',
-    reporterOptions: {
-    reportDir: 'cypress/reports/mochawesome',
-    overwrite: false,
-    html: true,
-    json: true 
-    },
-    
+   
   
     pageLoadTimeout: 120000, 
     defaultCommandTimeout: 10000,
